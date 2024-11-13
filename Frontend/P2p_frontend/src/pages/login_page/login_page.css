@@ -1,0 +1,112 @@
+#fullpage {
+    background: linear-gradient(to right, #0a5844, #0f3653, #300a48);
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow-y: auto;
+    padding: 0 5%; 
+}
+
+#headersection{
+    display:flex;
+    justify-content: center;
+    margin:50px;
+}
+
+#Title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #6de7b6;
+    align-items: center;
+    font-size: clamp(2rem, 8vw, 7rem); 
+    font-weight: 800;
+    top: 8rem; 
+    text-align: center;
+}
+
+#logo {
+    margin-right: 20px;
+    height: clamp(50px, 15vw, 150px); 
+}
+
+#Loginpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    color: rgb(235, 235, 235);
+    box-sizing: border-box;
+}
+
+.Loginbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    border-color: #31c0a1;
+    border-radius: 12px;
+    border-width: 1px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.543); 
+    padding: 50px;
+    background-color: rgba(160, 198, 211, 0.053);
+    position: relative;
+    margin-left: 4rem; 
+    width: 50vw;
+    min-width: 500px;
+    max-width: 2000px; 
+    min-height: 500px; 
+    height:50%;
+}
+
+#Signinbutton {
+    font-size: 2.2rem;
+    padding: 1.5rem;
+    margin: 25px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(234, 255, 247);
+    cursor: pointer;
+    width: 18%;
+    max-width: 300px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#Signinbutton:hover {
+    background-color: #000000;
+    color: rgb(109, 231, 182);
+    transform: scale(1.1);
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+#create {
+    position: absolute;
+    bottom: 60px; 
+    width: 100%;
+    text-align: center; 
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#create a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#create a:hover {
+    color: rgb(109, 231, 182); 
+}
+
+@media (max-width: 768px) {
+    .Loginbox {
+        width: 80%; /* Reduce width on smaller screens */
+        margin-left: 10px;
+    }
+    #Title {
+        font-size: 2rem; 
+    }
+}
