@@ -1,9 +1,15 @@
 import "./usernamebox.css"
 
-function Unamebox(){
+function Unamebox({value, onChange }){
     return(
         <div>
-            <input type="text" placeholder="Username " id = "Unamebox"/>
+            <input 
+            type="text" 
+            placeholder="Username "
+            id = "Unamebox"
+            value = {value}
+            onChange = {onChange}
+            />
         </div>
     )
 }

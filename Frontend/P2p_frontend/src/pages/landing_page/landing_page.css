@@ -1,0 +1,57 @@
+#landingcomponents {
+    background: linear-gradient(to right, #0a5844, #0f3653, #300a48);
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow-y: auto;
+    padding: 0 5%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#uploadbutton{
+    border-radius: 20rem;
+    font-size: 5rem;
+    padding:3rem;
+    width: 40%;
+    margin:2rem;
+    border-style: solid;
+    border-color: #31c0a1;
+    border-width: 0.2rem;
+    background-color: rgba(160, 198, 211, 0.062);
+    color: rgb(235, 235, 235);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#downloadbutton{
+    border-radius: 20rem;
+    font-size: 5rem;
+    padding:3rem;
+    width: 40%;
+    margin:2rem;
+    border-style: solid;
+    border-color: #31c0a1;
+    border-width: 0.2rem;
+    background-color:  rgba(160, 198, 211, 0.062);
+    color: rgb(235, 235, 235);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#uploadbutton:hover {
+    background-color: #000000;
+    color: rgb(109, 231, 182);
+    transform: scale(1.1);
+}
+
+#downloadbutton:hover{
+    background-color: #000000;
+    color: rgb(109, 231, 182);
+    transform: scale(1.1);
+}
+
+#headersection{
+    display:flex;
+    justify-content: center;
+    margin:50px;
+}
